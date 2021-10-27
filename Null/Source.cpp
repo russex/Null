@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 
@@ -15,9 +15,9 @@ void main()
 	cout << str << endl;
 	cout << str[1] << endl;
 	cout << sizeof(str) << endl;*/
-	const int n = 30;								// 3 ñïîñîá
+	const int n = 30;								// 3 ÑÐ¿Ð¾ÑÐ¾Ð±
 	char str[n] = {};
-	cout << "Ââåäèòå ñòðîêó:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ:";
 	cin.getline(str, n);
 	cout << str << endl;
 	cout << StringLength(str) << endl;
